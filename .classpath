@@ -3,13 +3,103 @@
   <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
   <classpathentry kind="output" path="target/classes"/>
   <classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar" sourcepath="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/activation/activation/1.1.1/activation-1.1.1.jar" sourcepath="M2_REPO/javax/activation/activation/1.1.1/activation-1.1.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/mail/mail/1.4.2/mail-1.4.2.jar" sourcepath="M2_REPO/javax/mail/mail/1.4.2/mail-1.4.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/xml/bind/jaxb-api/2.1/jaxb-api-2.1.jar" sourcepath="M2_REPO/javax/xml/bind/jaxb-api/2.1/jaxb-api-2.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar" sourcepath="M2_REPO/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar" sourcepath="M2_REPO/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1-sources.jar"/>
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
   <classpathentry kind="var" path="M2_REPO/junit/junit/3.8.1/junit-3.8.1.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-servlet/7.6.0.v20120127/jetty-servlet-7.6.0.v20120127.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-security/7.6.0.v20120127/jetty-security-7.6.0.v20120127.jar"/>
-  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-server/7.6.0.v20120127/jetty-server-7.6.0.v20120127.jar"/>
-  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-continuation/7.6.0.v20120127/jetty-continuation-7.6.0.v20120127.jar"/>
-  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-http/7.6.0.v20120127/jetty-http-7.6.0.v20120127.jar"/>
-  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-io/7.6.0.v20120127/jetty-io-7.6.0.v20120127.jar"/>
-  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-util/7.6.0.v20120127/jetty-util-7.6.0.v20120127.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-server/7.0.1.v20091125/jetty-server-7.0.1.v20091125.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-continuation/7.0.1.v20091125/jetty-continuation-7.0.1.v20091125.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-http/7.0.1.v20091125/jetty-http-7.0.1.v20091125.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-io/7.0.1.v20091125/jetty-io-7.0.1.v20091125.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-util/7.0.1.v20091125/jetty-util-7.0.1.v20091125.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/restlet/jse/org.restlet/2.0.11/org.restlet-2.0.11.jar" sourcepath="M2_REPO/org/restlet/jse/org.restlet/2.0.11/org.restlet-2.0.11-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/osgi/org.osgi.core/4.0.0/org.osgi.core-4.0.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/restlet/jse/org.restlet.ext.jaxrs/2.0.11/org.restlet.ext.jaxrs-2.0.11.jar" sourcepath="M2_REPO/org/restlet/jse/org.restlet.ext.jaxrs/2.0.11/org.restlet.ext.jaxrs-2.0.11-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1.jar" sourcepath="M2_REPO/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/sun/xml/bind/jaxb-impl/2.1.12/jaxb-impl-2.1.12.jar" sourcepath="M2_REPO/com/sun/xml/bind/jaxb-impl/2.1.12/jaxb-impl-2.1.12-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/restlet/jse/org.restlet.lib.org.json/2.0/org.restlet.lib.org.json-2.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/restlet/jse/org.restlet.ext.jetty/2.0.0/org.restlet.ext.jetty-2.0.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-ajp/7.0.1.v20091125/jetty-ajp-7.0.1.v20091125.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/restlet/jse/org.restlet.ext.json/2.0.11/org.restlet.ext.json-2.0.11.jar" sourcepath="M2_REPO/org/restlet/jse/org.restlet.ext.json/2.0.11/org.restlet.ext.json-2.0.11-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/restlet/jse/org.restlet.ext.wadl/2.0.11/org.restlet.ext.wadl-2.0.11.jar" sourcepath="M2_REPO/org/restlet/jse/org.restlet.ext.wadl/2.0.11/org.restlet.ext.wadl-2.0.11-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/restlet/jse/org.restlet.ext.xml/2.0.11/org.restlet.ext.xml-2.0.11.jar" sourcepath="M2_REPO/org/restlet/jse/org.restlet.ext.xml/2.0.11/org.restlet.ext.xml-2.0.11-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar" sourcepath="M2_REPO/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar" sourcepath="M2_REPO/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/lpg/runtime.java/2.0.17/runtime.java-2.0.17.jar" sourcepath="M2_REPO/lpg/runtime.java/2.0.17/runtime.java-2.0.17-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/ant/2.7.0/ant-2.7.0.jar" sourcepath="M2_REPO/org/eclipse/emf/ant/2.7.0/ant-2.7.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/cheatsheets/2.5.0/cheatsheets-2.5.0.jar" sourcepath="M2_REPO/org/eclipse/emf/cheatsheets/2.5.0/cheatsheets-2.5.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/codegen.ecore/2.8.2/codegen.ecore-2.8.2.jar" sourcepath="M2_REPO/org/eclipse/emf/codegen.ecore/2.8.2/codegen.ecore-2.8.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/codegen/2.8.0/codegen-2.8.0.jar" sourcepath="M2_REPO/org/eclipse/emf/codegen/2.8.0/codegen-2.8.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/common/2.8.0/common-2.8.0.jar" sourcepath="M2_REPO/org/eclipse/emf/common/2.8.0/common-2.8.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/converter/2.5.0/converter-2.5.0.jar" sourcepath="M2_REPO/org/eclipse/emf/converter/2.5.0/converter-2.5.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/databinding.edit/1.2.1/databinding.edit-1.2.1.jar" sourcepath="M2_REPO/org/eclipse/emf/databinding.edit/1.2.1/databinding.edit-1.2.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/databinding/1.2.0/databinding-1.2.0.jar" sourcepath="M2_REPO/org/eclipse/emf/databinding/1.2.0/databinding-1.2.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/doc/2.6.0/doc-2.6.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/ecore.change.edit/2.5.0/ecore.change.edit-2.5.0.jar" sourcepath="M2_REPO/org/eclipse/emf/ecore.change.edit/2.5.0/ecore.change.edit-2.5.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/ecore.change/2.8.0/ecore.change-2.8.0.jar" sourcepath="M2_REPO/org/eclipse/emf/ecore.change/2.8.0/ecore.change-2.8.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/ecore.edit/2.8.0/ecore.edit-2.8.0.jar" sourcepath="M2_REPO/org/eclipse/emf/ecore.edit/2.8.0/ecore.edit-2.8.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/ecore.editor/2.8.0/ecore.editor-2.8.0.jar" sourcepath="M2_REPO/org/eclipse/emf/ecore.editor/2.8.0/ecore.editor-2.8.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/ecore/2.8.3/ecore-2.8.3.jar" sourcepath="M2_REPO/org/eclipse/emf/ecore/2.8.3/ecore-2.8.3-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/ecore.xmi/2.8.1/ecore.xmi-2.8.1.jar" sourcepath="M2_REPO/org/eclipse/emf/ecore.xmi/2.8.1/ecore.xmi-2.8.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/edit/2.8.0/edit-2.8.0.jar" sourcepath="M2_REPO/org/eclipse/emf/edit/2.8.0/edit-2.8.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/example.installer/1.2.0/example.installer-1.2.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/exporter/2.6.0/exporter-2.6.0.jar" sourcepath="M2_REPO/org/eclipse/emf/exporter/2.6.0/exporter-2.6.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/importer.ecore/2.6.0/importer.ecore-2.6.0.jar" sourcepath="M2_REPO/org/eclipse/emf/importer.ecore/2.6.0/importer.ecore-2.6.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/importer.java/2.6.0/importer.java-2.6.0.jar" sourcepath="M2_REPO/org/eclipse/emf/importer.java/2.6.0/importer.java-2.6.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/importer.rose/2.6.0/importer.rose-2.6.0.jar" sourcepath="M2_REPO/org/eclipse/emf/importer.rose/2.6.0/importer.rose-2.6.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/importer/2.7.0/importer-2.7.0.jar" sourcepath="M2_REPO/org/eclipse/emf/importer/2.7.0/importer-2.7.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/mapping.ecore.editor/2.6.0/mapping.ecore.editor-2.6.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/mapping.ecore2ecore.editor/2.5.0/mapping.ecore2ecore.editor-2.5.0.jar" sourcepath="M2_REPO/org/eclipse/emf/mapping.ecore2ecore.editor/2.5.0/mapping.ecore2ecore.editor-2.5.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/mapping.ecore2ecore/2.7.0/mapping.ecore2ecore-2.7.0.jar" sourcepath="M2_REPO/org/eclipse/emf/mapping.ecore2ecore/2.7.0/mapping.ecore2ecore-2.7.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/mapping.ecore2xml/2.7.0/mapping.ecore2xml-2.7.0.jar" sourcepath="M2_REPO/org/eclipse/emf/mapping.ecore2xml/2.7.0/mapping.ecore2xml-2.7.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/mapping.ecore/2.6.0/mapping.ecore-2.6.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/mapping/2.7.0/mapping-2.7.0.jar" sourcepath="M2_REPO/org/eclipse/emf/mapping/2.7.0/mapping-2.7.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/mapping.xsd2ecore.editor/2.6.0/mapping.xsd2ecore.editor-2.6.0.jar" sourcepath="M2_REPO/org/eclipse/emf/mapping.xsd2ecore.editor/2.6.0/mapping.xsd2ecore.editor-2.6.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/mapping.xsd2ecore/2.5.0/mapping.xsd2ecore-2.5.0.jar" sourcepath="M2_REPO/org/eclipse/emf/mapping.xsd2ecore/2.5.0/mapping.xsd2ecore-2.5.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/emf/org.eclipse.emf/2.6.0/org.eclipse.emf-2.6.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/common/1.1.0/common-1.1.0.jar" sourcepath="M2_REPO/org/eclipse/ocl/common/1.1.0/common-1.1.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/doc/3.3.0/doc-3.3.0.jar" sourcepath="M2_REPO/org/eclipse/ocl/doc/3.3.0/doc-3.3.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/ecore.edit/3.2.100/ecore.edit-3.2.100.jar" sourcepath="M2_REPO/org/eclipse/ocl/ecore.edit/3.2.100/ecore.edit-3.2.100-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/ecore/3.2.100/ecore-3.2.100.jar" sourcepath="M2_REPO/org/eclipse/ocl/ecore/3.2.100/ecore-3.2.100-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/edit/3.2.100/edit-3.2.100.jar" sourcepath="M2_REPO/org/eclipse/ocl/edit/3.2.100/edit-3.2.100-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/examples.codegen.dynamic/1.0.0/examples.codegen.dynamic-1.0.0.jar" sourcepath="M2_REPO/org/eclipse/ocl/examples.codegen.dynamic/1.0.0/examples.codegen.dynamic-1.0.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/examples.codegen/1.1.0/examples.codegen-1.1.0.jar" sourcepath="M2_REPO/org/eclipse/ocl/examples.codegen/1.1.0/examples.codegen-1.1.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/examples.common/3.2.100/examples.common-3.2.100.jar" sourcepath="M2_REPO/org/eclipse/ocl/examples.common/3.2.100/examples.common-3.2.100-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/examples.domain/3.3.0/examples.domain-3.3.0.jar" sourcepath="M2_REPO/org/eclipse/ocl/examples.domain/3.3.0/examples.domain-3.3.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/examples.eventmanager/3.3.0/examples.eventmanager-3.3.0.jar" sourcepath="M2_REPO/org/eclipse/ocl/examples.eventmanager/3.3.0/examples.eventmanager-3.3.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/examples.impactanalyzer/3.2.100/examples.impactanalyzer-3.2.100.jar" sourcepath="M2_REPO/org/eclipse/ocl/examples.impactanalyzer/3.2.100/examples.impactanalyzer-3.2.100-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/examples.impactanalyzer.util/3.2.100/examples.impactanalyzer.util-3.2.100.jar" sourcepath="M2_REPO/org/eclipse/ocl/examples.impactanalyzer.util/3.2.100/examples.impactanalyzer.util-3.2.100-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/examples.interpreter/3.3.0/examples.interpreter-3.3.0.jar" sourcepath="M2_REPO/org/eclipse/ocl/examples.interpreter/3.3.0/examples.interpreter-3.3.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/examples.library/3.3.0/examples.library-3.3.0.jar" sourcepath="M2_REPO/org/eclipse/ocl/examples.library/3.3.0/examples.library-3.3.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/examples.modelregistry.edit/3.2.100/examples.modelregistry.edit-3.2.100.jar" sourcepath="M2_REPO/org/eclipse/ocl/examples.modelregistry.edit/3.2.100/examples.modelregistry.edit-3.2.100-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/examples.modelregistry.editor/3.2.100/examples.modelregistry.editor-3.2.100.jar" sourcepath="M2_REPO/org/eclipse/ocl/examples.modelregistry.editor/3.2.100/examples.modelregistry.editor-3.2.100-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/examples.modelregistry/3.2.100/examples.modelregistry-3.2.100.jar" sourcepath="M2_REPO/org/eclipse/ocl/examples.modelregistry/3.2.100/examples.modelregistry-3.2.100-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/examples.pivot/3.3.0/examples.pivot-3.3.0.jar" sourcepath="M2_REPO/org/eclipse/ocl/examples.pivot/3.3.0/examples.pivot-3.3.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/examples/3.3.0/examples-3.3.0.jar" sourcepath="M2_REPO/org/eclipse/ocl/examples/3.3.0/examples-3.3.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/examples.xtext.base/3.3.0/examples.xtext.base-3.3.0.jar" sourcepath="M2_REPO/org/eclipse/ocl/examples.xtext.base/3.3.0/examples.xtext.base-3.3.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/examples.xtext.completeocl/3.3.0/examples.xtext.completeocl-3.3.0.jar" sourcepath="M2_REPO/org/eclipse/ocl/examples.xtext.completeocl/3.3.0/examples.xtext.completeocl-3.3.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/examples.xtext.console/3.3.0/examples.xtext.console-3.3.0.jar" sourcepath="M2_REPO/org/eclipse/ocl/examples.xtext.console/3.3.0/examples.xtext.console-3.3.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/examples.xtext.essentialocl/3.3.0/examples.xtext.essentialocl-3.3.0.jar" sourcepath="M2_REPO/org/eclipse/ocl/examples.xtext.essentialocl/3.3.0/examples.xtext.essentialocl-3.3.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/examples.xtext.markup/3.3.0/examples.xtext.markup-3.3.0.jar" sourcepath="M2_REPO/org/eclipse/ocl/examples.xtext.markup/3.3.0/examples.xtext.markup-3.3.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/examples.xtext.oclinecore/3.3.0/examples.xtext.oclinecore-3.3.0.jar" sourcepath="M2_REPO/org/eclipse/ocl/examples.xtext.oclinecore/3.3.0/examples.xtext.oclinecore-3.3.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/examples.xtext.oclstdlib/3.3.0/examples.xtext.oclstdlib-3.3.0.jar" sourcepath="M2_REPO/org/eclipse/ocl/examples.xtext.oclstdlib/3.3.0/examples.xtext.oclstdlib-3.3.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/org.eclipse.ocl/3.3.0/org.eclipse.ocl-3.3.0.jar" sourcepath="M2_REPO/org/eclipse/ocl/org.eclipse.ocl/3.3.0/org.eclipse.ocl-3.3.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/uml.edit/4.0.100/uml.edit-4.0.100.jar" sourcepath="M2_REPO/org/eclipse/ocl/uml.edit/4.0.100/uml.edit-4.0.100-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/ocl/uml/4.0.100/uml-4.0.100.jar" sourcepath="M2_REPO/org/eclipse/ocl/uml/4.0.100/uml-4.0.100-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/xsd/cheatsheets/2.6.0/cheatsheets-2.6.0.jar" sourcepath="M2_REPO/org/eclipse/xsd/cheatsheets/2.6.0/cheatsheets-2.6.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/xsd/doc/2.6.0/doc-2.6.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/xsd/ecore.converter/2.6.0/ecore.converter-2.6.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/xsd/ecore.exporter/2.5.0/ecore.exporter-2.5.0.jar" sourcepath="M2_REPO/org/eclipse/xsd/ecore.exporter/2.5.0/ecore.exporter-2.5.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/xsd/ecore.importer/2.6.0/ecore.importer-2.6.0.jar" sourcepath="M2_REPO/org/eclipse/xsd/ecore.importer/2.6.0/ecore.importer-2.6.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/xsd/edit/2.6.0/edit-2.6.0.jar" sourcepath="M2_REPO/org/eclipse/xsd/edit/2.6.0/edit-2.6.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/xsd/editor/2.6.0/editor-2.6.0.jar" sourcepath="M2_REPO/org/eclipse/xsd/editor/2.6.0/editor-2.6.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/xsd/example.installer/1.1.0/example.installer-1.1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/xsd/mapping.editor/2.6.0/mapping.editor-2.6.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/xsd/mapping/2.6.0/mapping-2.6.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/xsd/org.eclipse.xsd/2.8.1/org.eclipse.xsd-2.8.1.jar" sourcepath="M2_REPO/org/eclipse/xsd/org.eclipse.xsd/2.8.1/org.eclipse.xsd-2.8.1-sources.jar"/>
 </classpath>
