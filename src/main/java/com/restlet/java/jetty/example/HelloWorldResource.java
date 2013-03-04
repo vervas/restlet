@@ -1,44 +1,33 @@
 package com.restlet.java.jetty.example;
 
-import java.io.IOException;
+import org.restlet.Context;
+import org.restlet.data.MediaType;
+import org.restlet.data.Request;
+import org.restlet.data.Response;
+import org.restlet.resource.Representation;
+import org.restlet.resource.Resource;
+import org.restlet.resource.ResourceException;
+import org.restlet.resource.StringRepresentation;
+import org.restlet.resource.Variant;
 
-import javax.servlet.Servlet;
-import javax.servlet.ServletConfig;
-import javax.servlet.ServletException;
-import javax.servlet.ServletRequest;
-import javax.servlet.ServletResponse;
+@Deprecated
+public class HelloWorldResource extends Resource {
 
-public class HelloWorldResource implements Servlet {
+	public HelloWorldResource(Context context, Request request,
+			Response response) {
+		super(context, request, response);
 
-	@Override
-	public void init(ServletConfig config) throws ServletException {
-		// TODO Auto-generated method stub
-		
+		// This representation has only one type of representation.
+		getVariants().add(new Variant(MediaType.TEXT_PLAIN));
 	}
 
+	/**
+	 * Returns a full representation for a given variant.
+	 */
 	@Override
-	public ServletConfig getServletConfig() {
-		// TODO Auto-generated method stub
-		return null;
+	public Representation represent(Variant variant) throws ResourceException {
+		Representation representation = new StringRepresentation(
+				"hello, world", MediaType.TEXT_PLAIN);
+		return representation;
 	}
-
-	@Override
-	public void service(ServletRequest req, ServletResponse res)
-			throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public String getServletInfo() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public void destroy() {
-		// TODO Auto-generated method stub
-		
-	}
-
 }
